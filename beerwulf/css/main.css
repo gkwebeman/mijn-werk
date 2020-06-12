@@ -1,0 +1,82 @@
+.table, th, td {
+    border: 1px solid black; 
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation__list {
+    list-style: none;
+} .navigation__list-item {
+    display: inline;
+} .navigation__list-item .active {
+    color: blue;   
+}
+.navigation__link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-right: 20px;
+
+} .navigation__link:hover {
+    color: blue;
+}
+
+.icon {
+    color: black;  
+    padding: 5px;
+}
+
+.icon:hover {
+    color: blue;
+}
+.icon--disabled, .icon--disabled:hover {
+    color: grey;
+}
+
+.button {
+    padding: 5px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.floatButton {
+    float: left;
+}
+
+.button--ja {
+    background-color: green;
+    margin-right: 10px;
+}
+
+.button--nee {
+    background-color: red;
+}
+
+.checked {
+    color: green;
+} 
+
+.in_etalage {
+    text-align: center;
+}
+
+.logo {
+    width: 350px;
+}
+
+.numbers {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}

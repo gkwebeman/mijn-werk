@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Notes
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ 
+  <ion-item>
+    <ion-label position="stacked">Title:</ion-label>
+    <ion-input type="text" [(ngModel)]="title"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Text:</ion-label>
+    <ion-textarea [(ngModel)]="text"></ion-textarea>
+  </ion-item>
+
+  <ion-button expand="block" (click)="processForm()"  class="ion-no-margin">Add</ion-button>
+
+  <ion-card *ngFor="let note of noteService.note; index as position" (click)="showActionSheet(position)">
+    <ion-card-header>
+      <ion-card-title>{{ note.title }}</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      {{ note.text }}
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

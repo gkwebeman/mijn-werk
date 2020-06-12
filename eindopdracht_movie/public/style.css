@@ -1,0 +1,15 @@
+.image {
+    height: 500px;
+}
+
+.card {
+    width: 100%;
+    text-align: left;
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+}
+
+.bold {
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+ion-content ion-toolbar {
+  --background: translucent;
+}
+
+ion-content {
+  --background: #fff url("/assets/img/background.jpg") no-repeat center center / cover;
+  --ion-text-color: #000000;
+}
+
+.background {
+  padding: 10px;
+  background-color: #ffffff;
+  opacity: 0.5;
+}

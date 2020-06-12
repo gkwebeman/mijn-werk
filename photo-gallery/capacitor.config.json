@@ -1,0 +1,9 @@
+{
+  "appId": "dev.gdesign.photo_and_notes",
+  "appName": "Photo and Notes",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {},
+  "windowsAndroidStudioPath": "C:\\Program Files\\Android\\Android Studio\\bin\\studio64.exe"
+}

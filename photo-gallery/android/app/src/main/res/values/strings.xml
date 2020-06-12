@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Photo and Notes</string>
+    <string name="title_activity_main">Photo and Notes</string>
+    <string name="package_name">dev.gdesign.photo_and_notes</string>
+    <string name="custom_url_scheme">dev.gdesign.photo_and_notes</string>
+</resources>
