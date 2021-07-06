@@ -14,7 +14,7 @@ Het gedeelte wat ik heb gedaan (tot nu toe) qua backend in het project van keuze
 
 ## helpdesk
 
-Het laravel project, voor het vak Backend waar wij dit jaar mee begonnen zijn.
+Het laravel project, voor het vak Backend waar wij in jaar 2 mee begonnen zijn.
 
 ## photo_gallery
 
