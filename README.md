@@ -8,10 +8,6 @@ Dit was het eindopdracht van jaar 1.
 
 Een VUE project waarin we films moesten kunnen zoeken uit een API, en deze op kunnen slaan in favorieten.
 
-## gigmonkey
-
-Het gedeelte wat ik heb gedaan (tot nu toe) qua backend in het project van keuzedeel.
-
 ## helpdesk
 
 Het laravel project, voor het vak Backend waar wij in jaar 2 mee begonnen zijn.
